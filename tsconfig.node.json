@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": ".",
+    "baseUrl": ".",
+    "composite": true
+  },
+  "include": [
+    "scripts/**/*",
+    "packages/*/vite.config.ts",
+    "packages/*/vitest.config.ts",
+    "vitest.workspace.ts",
+    "vite.config.ts"
+  ]
+}
